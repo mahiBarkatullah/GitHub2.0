@@ -8,7 +8,7 @@ int main()
 ```
 
 
-### Basic c programming code
+### Basic user input
 ```
 #include <stdio.h>
 int main()
@@ -37,4 +37,29 @@ int main()
 
     printf("Sum  = %d\n", sum);
 }
+```
+
+## Colloboration Project
+---
+#### Master Branch
+```
+#include <stdio.h>
+int main()
+{
+    int NumOne, NumTwo, sum, sub, mult, div, rem;
+    scanf("%d", &NumOne);
+    scanf("%d", &NumTwo);
+
+    sum = NumOne+ NumTwo;
+    sum = NumOne- NumTwo;
+    mult = NumOne*NumTwo;
+    div = NumOne/NumTwo;
+    rem = NumOne%NumTwo;
+    printf("%d\n", sum);
+    printf("%d\n", sub);
+    printf("%d\n", mult);
+    printf("%d\n", div);
+    printf("%d\n", rem);
+}
+
 ```
