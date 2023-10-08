@@ -87,5 +87,38 @@ int main()
     printf("Divisor = %d\n", div);
     printf("Remainder = %d\n", rem);
 }
+```
 
+
+#### Debug Branch
+```
+#include <stdio.h>
+int main()
+{
+    int NumOne, NumTwo, sum, sub, mult, div, rem;
+    scanf("%d", &NumOne);
+    scanf("%d", &NumTwo);
+
+    sum = NumOne+ NumTwo;
+    sum = NumOne- NumTwo;
+    mult = NumOne*NumTwo;
+
+
+    printf("%d\n", sum);
+    printf("%d\n", sub);
+    printf("%d\n", mult);
+
+    if (NumTwo==0)
+    {
+        printf("Denominator cannot be Zero");
+    }
+    else
+    {
+        div = NumOne/NumTwo;
+        rem = NumOne%NumTwo;
+        printf("%d\n", div);
+        printf("%d\n", rem);
+    }
+
+}
 ```
