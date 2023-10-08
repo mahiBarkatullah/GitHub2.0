@@ -63,3 +63,29 @@ int main()
 }
 
 ```
+
+
+#### Prompt Branch
+```
+#include <stdio.h>
+int main()
+{
+    int NumOne, NumTwo, sum, sub, mult, div, rem;
+    printf("Enter 1st Number: ");
+    scanf("%d", &NumOne);
+    printf("Enter 2nd Number: ");
+    scanf("%d", &NumTwo);
+
+    sum = NumOne+ NumTwo;
+    sum = NumOne- NumTwo;
+    mult = NumOne*NumTwo;
+    div = NumOne/NumTwo;
+    rem = NumOne%NumTwo;
+    printf("Sum = %d\n", sum);
+    printf("Sub = %d\n", sub);
+    printf("Multiplication = %d\n", mult);
+    printf("Divisor = %d\n", div);
+    printf("Remainder = %d\n", rem);
+}
+
+```
